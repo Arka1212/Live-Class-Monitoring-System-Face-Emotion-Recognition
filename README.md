@@ -1,4 +1,5 @@
 # Live-Class-Monitoring-System-Face-Emotion-Recognition
+Using different deep learning algorithms to develop a model which identifies or detects human face emotions.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Introduction
 Facial Emotion Recognition (FER) is the technology that analyses facial expressions from both static images and videos in order to reveal information on one’s emotional state. It belongs to the family of technologies often referred to as ‘affective computing’, a multidisciplinary field of research on computer’s capabilities to recognise and interpret human emotions and affective states and it often builds on Artificial Intelligence technologies. Facial expressions are forms of non-verbal

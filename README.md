@@ -67,6 +67,6 @@ Created a customised CNN model. Loss and accuracy curves of the model are as fol
 
 
 
-The model performed better than average with a training accuracy of 71.76% & validation accuracy of 61.63%
+The model performed better than average with a training accuracy of 69.72% & validation accuracy of 62.09%
 
 ### ResNet50

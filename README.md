@@ -71,3 +71,10 @@ Created a customised CNN model. Loss and accuracy curves of the model are as fol
 The model performed better than average with a training accuracy of 69.72% & validation accuracy of 62.09%
 
 ### ResNet50
+Created a model using the pre-trained architecture of ResNet50 while freezing the layers. Loss and accuracy curves of the model are as follows:
+
+![image](https://user-images.githubusercontent.com/85817763/167680099-96456c3c-87ee-485e-a8fb-4f771bf64f7e.png)
+![image](https://user-images.githubusercontent.com/85817763/167680138-9805d7ce-f546-4a8e-a7f0-f904b8604ee8.png)
+
+The model did not perform well with a training accuracy of 38.64% & validation accuracy of 38.77%
+

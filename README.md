@@ -65,16 +65,15 @@ Model architectures taken into consideration are as follows:
 ### CNN
 Created a customised CNN model. Loss and accuracy curves of the model are as follows:
 
-![image](https://user-images.githubusercontent.com/85817763/167655979-db6f9b33-ccd6-418d-a46a-1090d20eb614.png)
-![image](https://user-images.githubusercontent.com/85817763/167656048-70637435-8e07-4ec8-8c6d-b4cd3cdb51fd.png)
+![image](https://user-images.githubusercontent.com/85817763/167699763-d1036b43-0322-44c7-8ae5-e70b2ae4ac44.png)
+![image](https://user-images.githubusercontent.com/85817763/167699843-8b561971-734d-442f-8462-116be7bb0957.png)
 
-The model performed better than average with a training accuracy of 69.72% & validation accuracy of 62.09%
+The model performed better than average with a training accuracy of 72.97% & validation accuracy of 62.52%
 
 ### ResNet50
 Created a model using the pre-trained architecture of ResNet50 while freezing the layers. Loss and accuracy curves of the model are as follows:
 
-![image](https://user-images.githubusercontent.com/85817763/167680099-96456c3c-87ee-485e-a8fb-4f771bf64f7e.png)
-![image](https://user-images.githubusercontent.com/85817763/167680138-9805d7ce-f546-4a8e-a7f0-f904b8604ee8.png)
 
-The model did not perform well with a training accuracy of 38.64% & validation accuracy of 38.77%
+
+The model did not perform well with a training accuracy of 38.64% & validation accuracy of 38.16%
 

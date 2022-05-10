@@ -65,7 +65,8 @@ Model architectures taken into consideration are as follows:
 ### CNN
 Created a customised CNN model. Loss and accuracy curves of the model are as follows:
 
-
+![image](https://user-images.githubusercontent.com/85817763/167655979-db6f9b33-ccd6-418d-a46a-1090d20eb614.png)
+![image](https://user-images.githubusercontent.com/85817763/167656048-70637435-8e07-4ec8-8c6d-b4cd3cdb51fd.png)
 
 The model performed better than average with a training accuracy of 69.72% & validation accuracy of 62.09%
 

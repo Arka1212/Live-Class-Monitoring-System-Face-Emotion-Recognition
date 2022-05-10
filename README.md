@@ -57,4 +57,20 @@ The task is to categorize each face based on the emotion shown in the facial exp
 
 6 = Neutral
 
-## Project Approach
+##  Model Creation
+Model architectures taken into consideration are as follows:
+1. Convolutional Neural Networks
+2. ResNet50
+3. EfficientNetB0
+4. EfficientNetB1
+
+### CNN
+Created a customised CNN model. Loss and accuracy curves of the model is as follows:
+
+![image](https://user-images.githubusercontent.com/85817763/167541270-62621493-8216-445d-8c7f-0eaf11a134e5.png)
+
+![image](https://user-images.githubusercontent.com/85817763/167541339-2a9c3b30-3fba-4b8c-a11f-3527aca7041d.png)
+
+The model performed better than average with a training accuracy of 74% & validation accuracy of 62.16%
+
+### ResNet50

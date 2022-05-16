@@ -58,3 +58,19 @@ The task is to categorize each face based on the emotion shown in the facial exp
 6 = Neutral
 
 ##  Model Creation
+
+### 📉 ResNet50 (Transfer Learning)
+Performed model creation using transfer learning taking the help of pretrained "ResNet50" architecture. Following are the loss and accuracy curves of the model (Model name ---> model_A).
+
+![image](https://user-images.githubusercontent.com/85817763/168525529-cddcac13-aeb8-4734-b860-a99f3f0edfa7.png)
+![image](https://user-images.githubusercontent.com/85817763/168525619-9680218e-c79d-4c9b-b92e-759c31fca9cf.png)
+
+Model got a training accuracy of 38.18% and validation accuracy of 38.70%. Focusing on the accuracy, its clear that this model cannot be used to implement in the real time scenario.
+
+### 📉 Convolutional Learning Rate (CNN)
+Performed model creation using CNN architecture. Following are the loss and accuracy curves of the model (Model name ---> model_B).
+
+![image](https://user-images.githubusercontent.com/85817763/168527502-a5dca18a-85aa-47f8-b811-8da56ec8c07b.png)
+![image](https://user-images.githubusercontent.com/85817763/168527538-aa958223-c0e8-4af1-8e79-ac4aeb224647.png)
+
+This custom CNN model performed quite good and satisfactory with a training accuracy of 64.56% and validation accuracy of 64.64%. No doubtedly, this model can be used in real time scenario in order to create face emotion detection application.

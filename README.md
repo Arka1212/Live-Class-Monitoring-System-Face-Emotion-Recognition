@@ -62,28 +62,27 @@ The task is to categorize each face based on the emotion shown in the facial exp
 ### 📉 ResNet50 (Model name ----> model_A)
 Performed model creation using transfer learning taking the help of pretrained "ResNet50" architecture. Following are the loss and accuracy curves of the model (Model name ---> model_A).
 
-![image](https://user-images.githubusercontent.com/85817763/169116129-deb100a1-4966-4c21-9950-8d2945fa4ce1.png)
-![image](https://user-images.githubusercontent.com/85817763/169116185-ad6f5fb3-d5b7-4708-8e5a-a143ed475fcf.png)
+![image](https://user-images.githubusercontent.com/85817763/169365393-1720699a-393f-4275-99e9-7ab4177ac042.png)
+![image](https://user-images.githubusercontent.com/85817763/169365448-37ca80a6-5881-4fbf-b30f-77d4b568f47d.png)
 
-Model got a training accuracy of 35.96% and validation accuracy of 31.43%. Focusing on the accuracy, its clear that this model cannot be used to implement in the real time scenario.
+Model got a training accuracy of 37.21% and validation accuracy of 37.56%. Focusing on the accuracy, its clear that this model cannot be used to implement in the real time scenario.
 
 ### 📉 Convolutional Neural Network (CNN)
 
 #### CNN 1 (Model name ----> model_B)
 Its the first CNN model. Following are the loss and accuracy curves of the model.
 
-![image](https://user-images.githubusercontent.com/85817763/169116573-1897c824-4a77-404f-936a-6393a67c6611.png)
-![image](https://user-images.githubusercontent.com/85817763/169116607-d0d493d0-3165-4acd-9792-996a2cbdc03e.png)
+![image](https://user-images.githubusercontent.com/85817763/169365768-8c780dd0-2756-465a-8852-fa256f5f5156.png)
+![image](https://user-images.githubusercontent.com/85817763/169365808-39ab467e-7213-4d9b-8874-5b27260b2c04.png)
 
-
-The first custom CNN model performed quite good and satisfactory with a training accuracy of 64.32% and validation accuracy of 65.09%. 
+The first custom CNN model performed quite good and satisfactory with a training accuracy of 66.98% and validation accuracy of 66.75%. 
 
 #### CNN 2 (Model name ----> model_C)
 Its the second CNN model which is exactly the same as the first CNN model but the only difference is that its trained using 0.0001 learning rate instead of default learning rate just to check if it manages to boost the accuracy of the model. Following are the loss and accuracy curves of the model.
 
-![image](https://user-images.githubusercontent.com/85817763/169117581-82bf1837-1f58-4eca-b301-2ced15496bab.png)
-![image](https://user-images.githubusercontent.com/85817763/169117619-0f8bdb6e-8bb3-47b4-848c-392c036390f2.png)
+![image](https://user-images.githubusercontent.com/85817763/169365976-559c99bc-9b9f-413e-9ede-a7c7adc10c2c.png)
+![image](https://user-images.githubusercontent.com/85817763/169366019-53496a5a-7452-4c4c-86ed-2836b72e7538.png)
 
-This model also performed good with training accuracy of 63.52% and validation accuracy of 64.61%. Though was not able to beat the first CNN model's accuracy score.
+This model also performed good with training accuracy of 64.96% and validation accuracy of 65.58%. Though was not able to beat the first CNN model's accuracy score.
 
 So, first CNN model is saved as its the model with highest accuracy and can be used to develop a face emotion detection web application.

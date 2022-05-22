@@ -105,3 +105,7 @@ Steps for hosting this application in local environment:
 6. Sometimes it may show 'NotReadableError: Video Source Not Found'. This is because the web cam of the particular laptop is in use in other software and needs access to the webapp.
 
 Note: Sometimes you have to refresh 2-3 times to get the app running successfully
+
+##  Conclusion
+
+

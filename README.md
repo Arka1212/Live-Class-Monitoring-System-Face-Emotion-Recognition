@@ -102,7 +102,7 @@ Steps for hosting this application in local environment:
 3. Download the app.py, CNN_model_B.h5, CNN_model_B.json & haarcascade_frontalface_default.xml to a local folder in your machine.
 4. In the new virtual environment using command prompt go to the local folder where the above files are downloaded run the command : streamlit run app.py.
 5. The application will open up in your local browser.
-6. Sometimes it may show 'NotReadableError: Video Source Not Found'. This is because the web cam of the particular laptop is in use in other software and needs access to the webapp.
+
 
 Note: Sometimes you have to refresh 2-3 times to get the app running successfully
 

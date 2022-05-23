@@ -89,11 +89,9 @@ So, first CNN model is saved as its the model with highest accuracy and can be u
 
 ##  Real Time Emotion Recognition
 
-In this repository I have made a front end emotion recognition application using streamlit .This model was deployed on heroku also.
+In this repository I have made a front end emotion recognition application using streamlit .
 
 Streamlit Link :- https://share.streamlit.io/arka1212/live-class-monitoring-system-face-emotion-recognition/main/app.py
-
-Heroku Link :- 
 
 Steps for hosting this application in local environment:
 

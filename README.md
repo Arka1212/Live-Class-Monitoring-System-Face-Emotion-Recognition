@@ -106,4 +106,7 @@ Note: Sometimes you have to refresh 2-3 times to get the app running successfull
 
 ##  Conclusion
 
-
+* Three models have been created. First model was created using transfer learning approach using the ResNet50 architecture, second and third model was created using the CNN architecture.
+* Second model (model_B) performed the best out of all the other models in terms of accuracy.
+* The best performing model was saved and was used to create web application using streamlit and streamlit-WebRTC.
+* The streamlit face emotion detection web application was then deployed successfully in streamlit cloud.

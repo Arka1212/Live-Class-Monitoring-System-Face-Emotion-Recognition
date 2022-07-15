@@ -24,14 +24,6 @@ I will solve the above mentioned challenge by applying deep learning algorithms 
 
 ![image](https://user-images.githubusercontent.com/85817763/166960555-84f50568-1c53-4aca-9b90-bb22975b0314.png)
 
-## Head-start References
-❖ https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
-
-❖ https://towardsdatascience.com/video-facial-expression-detection-with-deep-learning-applying-fast-ai-d9dcfd5bcf10
-
-❖ https://github.com/atulapra/Emotion-detection
-
-❖ https://medium.com/analytics-vidhya/building-a-real-time-emotion-detector-towards-machine-with-e-q-c20b17f89220
 
 ## Dataset
 Following dataset is been used to address the above problem statement.
@@ -110,3 +102,12 @@ Note: Sometimes you have to refresh 2-3 times to get the app running successfull
 * Second model (model_B) performed the best out of all the other models in terms of accuracy.
 * The best performing model was saved and was used to create web application using streamlit and streamlit-WebRTC.
 * The streamlit face emotion detection web application was then deployed successfully in streamlit cloud.
+
+## References
+❖ https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
+
+❖ https://towardsdatascience.com/video-facial-expression-detection-with-deep-learning-applying-fast-ai-d9dcfd5bcf10
+
+❖ https://github.com/atulapra/Emotion-detection
+
+❖ https://medium.com/analytics-vidhya/building-a-real-time-emotion-detector-towards-machine-with-e-q-c20b17f89220

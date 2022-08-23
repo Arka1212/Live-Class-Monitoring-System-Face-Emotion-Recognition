@@ -3,6 +3,7 @@
 *.ipynb
 *.json
 *.xml
+*.whl
 test
 spec
 features

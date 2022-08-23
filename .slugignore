@@ -1,6 +1,7 @@
 *.psd
 *.pdf
 *.ipynb
+*.json
 test
 spec
 features

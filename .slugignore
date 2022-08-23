@@ -4,6 +4,7 @@
 *.json
 *.xml
 *.whl
+*.toml
 test
 spec
 features

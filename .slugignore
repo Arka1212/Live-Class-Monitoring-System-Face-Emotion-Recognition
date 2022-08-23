@@ -5,6 +5,7 @@
 *.xml
 *.whl
 *.toml
+SQLite3
 test
 spec
 features

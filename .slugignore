@@ -5,6 +5,7 @@
 *.xml
 *.whl
 *.toml
+*.h5
 SQLite3
 test
 spec

@@ -2,6 +2,7 @@
 *.pdf
 *.ipynb
 *.json
+*.xml
 test
 spec
 features

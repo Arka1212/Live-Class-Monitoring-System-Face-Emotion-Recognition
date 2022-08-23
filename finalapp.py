@@ -15,7 +15,7 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, RTCConfigura
 try:
     face_haar_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     # load model
-    model = load_model("CNN_model.h5")
+    model = load_model("CNN_model_B.h5")
     emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']  # Emotion that will be predicted
 except Exception:
     st.write("Error loading cascade classifiers")
